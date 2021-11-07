@@ -55,6 +55,29 @@
 		.page1 img{
 			z-index: -1;
 		}
+
+		.boxPage1 {
+			position: relative;
+			top: 500px;
+			left: 100px;
+		}
+
+		.emailBox {
+			position: absolute;
+			height: 30px;
+			width: 230px;
+			font-size: 14px;
+		}
+		
+		.emailBoxSend {
+			position: absolute;
+			left: 250px;
+			height: 36px;
+			width: 80px;
+			border: none;
+			color: black;
+			background-color: aqua;
+		}
 		
 		html, body {
 				max-width: 100%;
